@@ -120,7 +120,28 @@ Route::get('/reports/patient-visit-state-show', function (){
 });
 
 
+/*
+######### config admin panel  ##########
+*/
 
+Route::get('/admin/add-new-user', function (){
+    return view('admin.add-new-user');
+});
 
+Route::get('/admin/define-foundations', function (){
+    return view('admin.define-foundations');
+});
+
+Route::get('/admin/define-nationalities', function (){
+    return view('admin.define-nationalities');
+});
+
+Route::get('/admin/edit-user-details', function (){
+    return view('admin.edit-user-details');
+});
+
+Route::get('/admin/new-clinic', function (){
+    return view('admin.new-clinic');
+});
 
 

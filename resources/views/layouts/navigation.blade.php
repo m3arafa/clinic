@@ -6,12 +6,12 @@
                     <a data-toggle="dropdown" class="dropdown-toggle" href="#">
                         <span class="clear">
                             <span class="block m-t-xs">
-                                <strong class="font-bold">Example user</strong>
-                            </span> <span class="text-muted text-xs block">Example menu <b class="caret"></b></span>
+                                <strong class="font-bold">مدير عام</strong>
+                            </span> <span class="text-muted text-xs block"><b class="caret"></b></span>
                         </span>
                     </a>
                     <ul class="dropdown-menu animated fadeInRight m-t-xs">
-                        <li><a href="#">Logout</a></li>
+                        <li><a href="#">تسجيل الخروج</a></li>
                     </ul>
                 </div>
             </li>
@@ -20,7 +20,7 @@
             </li>
 
             <li class="">
-                <a href="#"><i class="fa fa-edit"></i> <span class="nav-label">التقارير</span><span
+                <a href="#"><i class="fa fa-bar-chart-o "></i> <span class="nav-label">التقارير</span><span
                             class="fa arrow"></span></a>
                 <ul class="nav nav-second-level collapse" style="height: 0px;">
                     <li class="active"><a href="{{url('/reports/patients-visits')}}">تقرير زيارات المرضى</a></li>
@@ -30,6 +30,18 @@
                     <li><a href="{{url('/reports/pharmacy-transactions')}}">تقرير الصرف من الصيدلية</a></li>
                     <li><a href="{{url('/reports/pharmacy-inventory')}}">تقرير جرد الصيدلية</a></li>
 
+
+                </ul>
+            </li>
+            <li class="">
+                <a href="#"><i class="fa fa-edit"></i> <span class="nav-label">الإعدادات</span><span
+                            class="fa arrow"></span></a>
+                <ul class="nav nav-second-level collapse" style="height: 0px;">
+                    <li class="active"><a href="{{url('/admin/new-clinic')}}">إضافة عيادة</a></li>
+                    <li><a href="{{url('/admin/define-nationalities')}}">تعريف الجنسيات</a></li>
+                    <li><a href="{{url('/admin/define-foundations')}}">تعريف جهات التحويل</a></li>
+                    <li><a href="{{url('/admin/edit-user-details')}}">تعديل بيانات مستخدم</a></li>
+                    <li><a href="{{url('/admin/add-new-user')}}">إضافة مستخدم</a></li>
 
                 </ul>
             </li>

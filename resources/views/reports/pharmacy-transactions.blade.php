@@ -65,7 +65,7 @@
                             <td>
                                 <dt>2</dt>
                                 <dt>1</dt>
-                                <dt>2xto create</dt>
+                                <dt>2</dt>
                             </td>
                             <td>
                                 <dt>2</dt>
