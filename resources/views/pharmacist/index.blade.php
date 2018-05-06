@@ -1,6 +1,8 @@
 @extends('layouts.pharmacist')
 
-
+@section('title')
+الصيدلية | الرئيسية
+@stop
 
 @section('content')
 

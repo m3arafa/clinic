@@ -23,7 +23,7 @@
                 <a href="#"><i class="fa fa-bar-chart-o "></i> <span class="nav-label">التقارير</span><span
                             class="fa arrow"></span></a>
                 <ul class="nav nav-second-level collapse" style="height: 0px;">
-                    <li class="active"><a href="{{url('/reports/patients-visits')}}">تقرير زيارات المرضى</a></li>
+                    <li><a href="{{url('/reports/patients-visits')}}">تقرير زيارات المرضى</a></li>
                     <li><a href="{{url('/reports/patients-in-reception')}}">تقرير المرضى المسجلين
                             بالإستقبال</a></li>
                     <li><a href="{{url('/reports/patient-visit-state')}}">تقرير دخول وخروج مريض</a></li>
@@ -37,10 +37,10 @@
                 <a href="#"><i class="fa fa-edit"></i> <span class="nav-label">الإعدادات</span><span
                             class="fa arrow"></span></a>
                 <ul class="nav nav-second-level collapse" style="height: 0px;">
-                    <li class="active"><a href="{{url('/admin/new-clinic')}}">إضافة عيادة</a></li>
+                    <li><a href="{{url('/admin/new-clinic')}}">إضافة عيادة</a></li>
                     <li><a href="{{url('/admin/define-nationalities')}}">تعريف الجنسيات</a></li>
                     <li><a href="{{url('/admin/define-foundations')}}">تعريف جهات التحويل</a></li>
-                    <li><a href="{{url('/admin/edit-user-details')}}">تعديل بيانات مستخدم</a></li>
+                    <li><a href="{{url('/admin/show-users')}}">تعديل بيانات المستخدمين</a></li>
                     <li><a href="{{url('/admin/add-new-user')}}">إضافة مستخدم</a></li>
 
                 </ul>

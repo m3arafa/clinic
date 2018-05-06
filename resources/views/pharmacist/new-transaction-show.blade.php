@@ -2,7 +2,7 @@
 
 
 @section('title')
-    تسجيل صرف جديد
+   تسجيل صرف جديد
 @stop
 
 @section('content')

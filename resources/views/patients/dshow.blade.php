@@ -1,5 +1,8 @@
 @extends('layouts.doctor')
 
+@section('title')
+العيادة | بيانات المريض
+@stop
 
 
 @section('content')

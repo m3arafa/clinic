@@ -1,5 +1,8 @@
 @extends('layouts.pharmacist')
 
+@section('title')
+قائمة الموردين
+@stop
 
 @section('content')
 

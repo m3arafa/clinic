@@ -1,6 +1,8 @@
 @extends('layouts.doctor')
 
-
+@section('title')
+قائمة المرضى فى الإنتظار
+@stop
 
 
 @section('content')

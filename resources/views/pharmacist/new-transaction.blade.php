@@ -9,10 +9,10 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-sm-12 col-md-10 col-lg-8">
+            <div class="col-sm-12 col-md-10 col-lg-10">
                 <div class="ibox float-e-margins">
                     <div class="ibox-title">
-                        <h5>تسجيل صرف جديد</h5>
+                        <h4>تسجيل صرف جديد</h4>
                     </div>
                     <div class="ibox-content" style="">
                         <form class="form-horizontal">
@@ -28,7 +28,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-8">
+            <div class="col-lg-10">
                 <div class="ibox float-e-margins">
                     <div class="ibox-title">
                         <h5>أذونات الصرف</h5>

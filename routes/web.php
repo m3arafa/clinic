@@ -144,4 +144,7 @@ Route::get('/admin/new-clinic', function (){
     return view('admin.new-clinic');
 });
 
+Route::get('/admin/show-users', function (){
+    return view('admin.show-users');
+});
 

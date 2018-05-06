@@ -1,5 +1,7 @@
 @extends('layouts.pharmacist')
-
+@section('title')
+تسجيل عملية توريد جديدة
+@stop
 @section('content')
 
     <div class="row">

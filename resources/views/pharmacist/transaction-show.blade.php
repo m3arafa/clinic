@@ -2,7 +2,7 @@
 
 
 @section('title')
-    تسجيل صرف جديد
+    بيانات الصرف
 @stop
 
 @section('content')

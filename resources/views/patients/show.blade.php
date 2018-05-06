@@ -1,6 +1,8 @@
 @extends('layouts.reception')
 
-
+@section('title')
+الإستقبال | بيانات المريض
+@stop
 
 @section('content')
 

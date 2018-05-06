@@ -13,7 +13,7 @@
                 <div class="ibox float-e-margins">
 
                     <div class="ibox-title">
-                        <h4>تقريرى بجميع المرضى المسجلين بالإستقبال</h4>
+                        <h4>تقرير بجميع المرضى المسجلين بالإستقبال</h4>
                     </div>
 
                     <div class="ibox-content" style="">

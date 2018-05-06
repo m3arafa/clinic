@@ -1,6 +1,8 @@
 @extends('layouts.reception')
 
-
+@section('title')
+الإستقبال
+@stop
 
 @section('content')
 
