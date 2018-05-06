@@ -1,7 +1,7 @@
 @extends('layouts.reception')
 
 @section('title')
-تسجيل مريض جديد
+    تسجيل مريض جديد
 @stop
 
 @section('content')
@@ -144,12 +144,16 @@
                                     </select>
                                 </div>
                             </div>
-                            <div class="col-sm-6">
+                            <div class="col-sm-6 form-group">
 
-                                <label class="col-sm-3 control-label">تاريخ الميلاد</label>
-                                <div class="col-sm-9">
+                                <label class="col-sm-3 control-label" >تاريخ الميلاد</label>
+
+                                <div class="input-group date col-sm-9">
+                                    <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
                                     <input type="date" class="form-control">
                                 </div>
+
+
                             </div>
 
 
@@ -322,7 +326,8 @@
 
                             <div class="col-sm-6">
                                 <label class="col-sm-3 control-label">تاريخ المراجعة</label>
-                                <div class="col-sm-9">
+                                <div class="input-group date col-sm-9">
+                                    <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
                                     <input type="date" class="form-control">
                                 </div>
                             </div>
@@ -330,7 +335,8 @@
                             <div class="col-sm-6">
 
                                 <label class="col-sm-3 control-label">تاريخ فتح الملف</label>
-                                <div class="col-sm-9">
+                                <div class="input-group date col-sm-9">
+                                    <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
                                     <input type="date" class="form-control">
                                 </div>
                             </div>

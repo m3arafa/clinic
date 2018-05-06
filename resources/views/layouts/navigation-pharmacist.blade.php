@@ -30,9 +30,8 @@
                 <a href="#"><i class="fa fa-edit"></i> <span class="nav-label">الموردين</span><span
                             class="fa arrow"></span></a>
                 <ul class="nav nav-second-level collapse" style="height: 0px;">
-                    <li class="active"><a href="{{url('/pharmacist/suppliers')}}">قائمة الموردين</a></li>
+                    <li><a href="{{url('/pharmacist/suppliers')}}">قائمة الموردين</a></li>
                     <li><a href="{{url('/pharmacist/supplier-transaction')}}">تسجيل عملية توريد</a></li>
-                    <li><a href="{{url('/pharmacist/supplier-add')}}">تسجيل مورد جديد</a></li>
                 </ul>
             </li>
         </ul>

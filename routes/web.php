@@ -83,9 +83,6 @@ Route::get('/pharmacist/supplier-transaction', function () {
     return view('pharmacist.supplier-transaction');
 });
 
-Route::get('/pharmacist/supplier-add', function () {
-    return view('pharmacist.supplier-add');
-});
 
 /*
 ######### reports ##########
