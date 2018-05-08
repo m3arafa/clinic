@@ -47,11 +47,6 @@ Route::get('/patients/dshow', function () {
     return view('patients.dshow');
 });
 
-Route::get('/patients/dshow2', function () {
-
-    return view('patients.dshow2');
-});
-
 Route::get('/doctors/patients-search', function () {
     return view('doctors.patients-search');
 });

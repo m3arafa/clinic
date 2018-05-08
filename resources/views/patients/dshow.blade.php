@@ -1,7 +1,7 @@
 @extends('layouts.doctor')
 
 @section('title')
-العيادة | بيانات المريض
+    العيادة | بيانات المريض
 @stop
 
 
@@ -9,8 +9,8 @@
 
 
     <div class="content">
-        <div class="row m-b-lg m-t-lg">
-            <div class="col-md-6">
+        <div class="row">
+            <div class="col-lg-6">
 
                 <div class="profile-image">
                     <img src="{{asset('public/img/a4.jpg')}}" class="img-circle circle-border m-b-md" alt="profile">
@@ -18,20 +18,11 @@
                 <div class="profile-info p-h-m">
 
                     <div>
-                        <h2 class="no-margins">
+                        <h3 class="no-margins">
                             أحمد عبد السلام المتولى
-                        </h2>
-                        <h4>عيادة المخدرات</h4>
+                        </h3>
+                        <h5>عيادة المخدرات</h5>
                     </div>
-                </div>
-            </div>
-            <div class="form-group col-sm-6">
-                <h3>وصف الحالة فى آخر زيارة :</h3>
-                <div class="form-group">
-                    <p> يعاني من اضطراب الاكتئاب والقلق والاضطراب ثنائي القطب، والأعراض تكون في صورة متزامنة مع
-                        الإدمان</p>
-                    <p> سوء خلل في تفسير المدركات من حول الشخص عن طريق الحواس الخمسة، النظر، اللمس، السمع، الشم، التذوق
-                        فمن الممكن ان يرى اشياء واشخاص غير موجودة وتكون الأمور أكثر تعقيداً.</p>
                 </div>
             </div>
 
@@ -40,163 +31,224 @@
 
         <div class="form-group row">
             {{--بيانات المريض & الزيارات السابقة--}}
-            <div class="col-sm-6">
-                <table class="table small m-b-xs">
-                    <tbody>
-                    <tr>
-                        <td>
-                            <h4>آخر زيارة</h4>
-                        </td>
-                        <td>
-                            <h5>22/4/2018</h5>
-                        </td>
 
-                    </tr>
-                    <tr>
-                        <td>
-                            <h4>تاريخ فتح الملف</h4>
-                        </td>
-                        <td>
-                            <h5>30/1/2010</h5>
-                        </td>
+            <div class="col-lg-10">
+                <div class="tabs-container">
+                    <div class="tabs-left">
+                        <ul class="nav nav-tabs">
+                            <li class="active"><a data-toggle="tab" href="#tab-1" aria-expanded="true"> بيانات
+                                    المريض</a></li>
+                            <li class=""><a data-toggle="tab" href="#tab-2" aria-expanded="false">الزيارات السابقة</a>
+                            </li>
+                            <li class=""><a data-toggle="tab" href="#tab-3" aria-expanded="false">تسجيل زيارة</a>
+                            </li>
+                        </ul>
+                        <div class="tab-content ">
+                            <div id="tab-1" class="tab-pane active">
+                                <div class="panel-body">
+                                    <table class="table table-responsive table-striped ">
+                                        <tbody>
 
-                    </tr>
-                    <tr>
-                        <td>
-                            <h4>تاريخ المراجعة</h4>
-                        </td>
-                        <td>
-                            <h5>23/2/2018</h5>
-                        </td>
+                                        <tr>
+                                            <th>رقم الملف</th>
+                                            <td>2324</td>
+                                        </tr>
+                                        <tr>
+                                            <th>السن</th>
+                                            <td>43</td>
+                                        </tr>
 
-                    </tr>
+                                        <tr>
+                                            <th>المهنة</th>
+                                            <td>مهندس مدنى</td>
+                                        </tr>
 
-                    <tr>
-                        <td>
-                            <h4>العنوان</h4>
-                        </td>
-                        <td>
-                            <h5>مركز سمنود - الغربية - مصر</h5>
-                        </td>
+                                        <tr>
+                                            <th>الجنسية</th>
+                                            <td>سعودى</td>
+                                        </tr>
 
-                    </tr>
-                    <tr>
-                        <td>
-                            <h4>رقم الجوال</h4>
-                        </td>
-                        <td>
-                            <h5>20-1069-896425</h5>
-                        </td>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <div id="tab-2" class="tab-pane">
+                                <div class="panel-body">
 
-                    </tr>
-                    <tr>
-                        <td>
-                            <h4>رقم آخر للتواصل</h4>
-                        </td>
-                        <td>
-                            <h5>20-1169-896458</h5>
-                        </td>
-
-                    </tr>
-
-                    </tbody>
-                </table>
-                <div class="col-sm-9">
-                    <h3>الزيارات السابقة:</h3>
-                    <table class="table">
-                        <thead>
-                        <tr>
-                            <td>التاريخ</td>
-                            <td>الوقت</td>
-                        </tr>
-                        </thead>
-                        <tbody>
-                        <tr>
-                            <td>23/2/2018</td>
-                            <td>05:32</td>
-                        </tr>
-                        <tr>
-                            <td>15/1/2018</td>
-                            <td>03:18</td>
-                        </tr>
-
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-
-            {{--الأدوية الموصوفة & ميعاد الزيارة القادمة --}}
-            <div class="form-group col-sm-6">
-
-                <div class="col-sm-12">
-                    <form role="form" method="" action="">
-                        <div class="col-sm-12">
-                            <h3 class="col-sm-4">الأدوية الموصوفة:</h3>
-                            <div class="col-sm-8">
-
-                                    <select class="form-control m-b" name="account">
-                                        <option>أوكسايبام</option>
-                                        <option>كلوراديازيبوكسايد</option>
-                                        <option> لورازيبام</option>
-                                        <option>أوكسكاربازيبين</option>
+                                    <select class="selectpicker" data-size="5" name="date-visit[]"
+                                            id="date-visit">
+                                        <option value="1">13/04/2018</option>
+                                        <option value="2">01/04/2018</option>
+                                        <option value="3">25/03/2018</option>
+                                        <option value="4">02/02/2018</option>
+                                        <option value="5">18/02/2018</option>
                                     </select>
+                                    <div id="show-visit">
+                                        <h4 class="p-h-sm">الأدوية الموصوفة:</h4>
+
+                                        <table class="table table-responsive table-striped">
+                                            <thead>
+                                            <tr>
+                                                <th>الصنف</th>
+                                                <th>الكمية</th>
+                                            </tr>
+
+                                            </thead>
+                                            <tbody>
+
+                                            <tr>
+                                                <td>أوبتازول</td>
+                                                <td>1</td>
+                                            </tr>
+                                            <tr>
+                                                <td>أوكتاسيدول</td>
+                                                <td>2</td>
+                                            </tr>
+                                            <tr>
+                                                <td>لورازيبام</td>
+                                                <td>1</td>
+                                            </tr>
+
+                                            </tbody>
+                                        </table>
+                                        <h4>وصف الحالة:</h4>
+                                        يعاني من اضطراب الاكتئاب والقلق والاضطراب ثنائي القطب، والأعراض تكون في صورة
+                                        متزامنة
+                                        مع الإدمان
+
+                                        سوء خلل في تفسير المدركات من حول الشخص عن طريق الحواس الخمسة، النظر، اللمس،
+                                        السمع،
+                                        الشم، التذوق فمن الممكن ان يرى اشياء واشخاص غير موجودة وتكون الأمور أكثر
+                                        تعقيداً.
+                                    </div>
+                                </div>
                             </div>
+                            <div id="tab-3" class="tab-pane">
+                                <div class="panel-body">
+                                    <form role="form">
 
-                        </div>
-                        <div class="col-sm-12">
+                                        <div id="hiddens"></div>
 
-                            <table class="table table-responsive">
-                                <thead>
-                                <th>اسم الدواء</th>
-                                <th>الحالة</th>
-                                <th>الكمية</th>
-                                </thead>
-                                <tbody>
-                                <tr>
-                                    <td>أوكسكاربازيبين</td>
-                                    <td class="text-success">متوفر</td>
-                                    <td><input type="text" class="form-group"></td>
-                                </tr>
-                                <tr>
-                                    <td>لورازيبام</td>
-                                    <td class="text-danger">غير متوفر</td>
-                                    <td><input type="text" class="form-group"></td>
-                                </tr>
+                                        <h3>الأدوية الموصوفة:</h3>
 
-                                </tbody>
-                            </table>
-                        </div>
+                                        <div class="row form-group m-b-none m-t-md">
 
-                        <div class="col-sm-12">
+                                            <div class="col-lg-1">
+                                                <label>الصنف</label>
+                                            </div>
+                                            <div class="col-lg-3">
+                                                <select class="selectpicker" data-live-search="true" data-size="5"
+                                                        name="item[]" id="item">
+                                                    <option value="1" data-name=" أوكسكاربازيبين"> أوكسكاربازيبين
+                                                    </option>
+                                                    <option value="2" data-name2="لورازيبام">لورازيبام</option>
+                                                    <option value="3" data-name="أوكسايبام">أوكسايبام</option>
+                                                    <option value="4" data-name="أوكسكاربازيبين">أوكسكاربازيبين</option>
+                                                    <option value="5" data-name="لورازيبام">لورازيبام</option>
+                                                    <option value="6" data-name="أوكسايبام">أوكسايبام</option>
+                                                </select>
+                                            </div>
 
-                            <div class="col-sm-4 col-md-5 col-lg-4">
-                                <h3>ميعاد الزيارة القادمة :</h3>
+                                        </div>
+                                        <div class="row form-group">
+
+                                            <div class="col-lg-1">
+                                                <label>الكمية</label>
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <input class="form-control" name="qty" id="qty" type="text">
+                                            </div>
+
+                                            <div class="col-lg-1">
+                                                <label>الجرعة</label>
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <input class="form-control" name="gor3a" id="gor3a" type="text">
+                                            </div>
+                                            <a href="javascript:void(0)" id="add-item"
+                                               class="btn btn-primary ">اضافة</a>
+
+                                        </div>
+
+                                        <div class="col-lg-11 m-t-md">
+                                            <table class="table table-responsive table-hover table-bordered">
+                                                <thead>
+                                                <tr class="info">
+                                                    <th> الصنف</th>
+                                                    <th>الكمية</th>
+                                                    <th>الجرعة</th>
+                                                </tr>
+                                                </thead>
+
+                                                <tbody id="items-table">
+
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                        <div class="row form-group">
+                                            <div class="col-lg-3">
+                                                <label>ميعاد الزيارة القادمة</label>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <input type="date" class="form-control">
+                                            </div>
+                                        </div>
+                                        <div class="row form-group">
+                                            <div class="col-lg-3">
+                                                <label>وصف الحالة الحالية</label>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <textarea class="form-control"></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="row form-group m-r-xl">
+                                            <button class="btn btn-primary m-t-md" type="submit">تسجيل وطباعة</button>
+                                        </div>
+
+                                    </form>
+                                </div>
                             </div>
-                            <div class="col-sm-8 col-md-7 col-lg-8">
-                                <input class="form-control" type="date">
-                            </div>
                         </div>
 
-                        <div class="col-sm-12 m-t-md">
-                            <div class="col-sm-4 col-md-5 col-lg-4">
-                                <h3>وصف الحالة الحالية :</h3>
-                            </div>
-                            <div class="col-sm-8 col-md-7 col-lg-8">
-                                <textarea class="form-control"></textarea>
-                            </div>
-                        </div>
-                        <div class="p-w-lg">
-                            <button type="submit" class="btn btn-info m-t-lg pull-left">طباعة روشتة وتسجيل  بيانات الزيارة</button>
-                        </div>
-                    </form>
+                    </div>
                 </div>
-
-
-
             </div>
 
 
         </div>
+    </div>
+
+@stop
+
+@section('scripts')
+
+    <script>
+        $(document).ready(function () {
+
+            $('#add-item').on('click', function () {
+                var qty = $('#qty').val();
+                var gor3a = $('#gor3a').val();
+                var item = $('#item option:selected').data('name');
+                var item_id = $('#item').val();
+
+                $('#items-table').append('<tr><td>' + item + '</td><td>' + qty + '</td><td>' + gor3a + '</td></tr>');
+                $('#hiddens').append('<input type="hidden" value="' + item_id + '-' + qty + '-' + gor3a + '" name="item-qty-gor3a[]">');
+
+            });
+
+        });
+
+        $(document).ready(function () {
+
+
+            $("#date-visit").change(function () {
+                var date = this.value;
+
+            });
+
+        });
+
+    </script>
 
 
 @stop
