@@ -84,27 +84,17 @@
                                 <td>أبوقير - الإسكندرية - مصر</td>
                                 <td>20-1063-869584</td>
                                 <td>
-                                    <button class="btn btn-primary"> عرض التوريدات</button>
+                                    <form role="form" action="{{url('/pharmacist/supplier-transactions-show')}}">
+                                        <button class="btn btn-primary btn-sm" type="submit"> عرض التوريدات</button>
+                                    </form>
                                 </td>
-                                <th>
+                                <td>
 
-                                    <a data-toggle="modal" class="btn btn-warning" href="#modal-form">تعديل
-                                        البيانات</a>
+                                    <form action="{{url('/pharmacist/supplier-edit')}}">
+                                        <button type="submit" class="btn btn-warning btn-sm">تعديل البيانات</button>
+                                    </form>
 
-                                    <div id="modal-form" class="modal fade" aria-hidden="true"
-                                         style="display: none;">
-                                        <div class="modal-dialog">
-                                            <div class="modal-content">
-                                                <div class="modal-body">
-
-
-                                                    
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </th>
+                                </td>
 
 
                             </tr>
@@ -114,6 +104,18 @@
                                 <td>035458</td>
                                 <td>أبوقير - الإسكندرية - مصر</td>
                                 <td>20-1063-869584</td>
+                                <td>
+                                    <form role="form" action="{{url('/pharmacist/supplier-transactions-show')}}">
+                                        <button class="btn btn-primary btn-sm" type="submit"> عرض التوريدات</button>
+                                    </form>
+                                </td>
+                                <td>
+
+                                    <form action="{{url('/pharmacist/supplier-edit')}}">
+                                        <button type="submit" class="btn btn-warning btn-sm">تعديل البيانات</button>
+                                    </form>
+
+                                </td>
 
                             </tr>
                             <tr>
@@ -122,6 +124,18 @@
                                 <td>035458</td>
                                 <td>أبوقير - الإسكندرية - مصر</td>
                                 <td>20-1063-869584</td>
+                                <td>
+                                    <form role="form" action="{{url('/pharmacist/supplier-transactions-show')}}">
+                                        <button class="btn btn-primary btn-sm" type="submit"> عرض التوريدات</button>
+                                    </form>
+                                </td>
+                                <td>
+
+                                    <form action="{{url('/pharmacist/supplier-edit')}}">
+                                        <button type="submit" class="btn btn-warning btn-sm">تعديل البيانات</button>
+                                    </form>
+
+                                </td>
 
                             </tr>
                             <tr>
@@ -130,6 +144,18 @@
                                 <td>035458</td>
                                 <td>أبوقير - الإسكندرية - مصر</td>
                                 <td>20-1063-869584</td>
+                                <td>
+                                    <form role="form" action="{{url('/pharmacist/supplier-transactions-show')}}">
+                                        <button class="btn btn-primary btn-sm" type="submit"> عرض التوريدات</button>
+                                    </form>
+                                </td>
+                                <td>
+
+                                    <form action="{{url('/pharmacist/supplier-edit')}}">
+                                        <button type="submit" class="btn btn-warning btn-sm">تعديل البيانات</button>
+                                    </form>
+
+                                </td>
 
                             </tr>
 

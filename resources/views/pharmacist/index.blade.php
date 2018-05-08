@@ -6,7 +6,7 @@
 
 @section('content')
 
-    <div class="form-group float-e-margins">
+    <div class="form-group float-e-margins col-lg-offset-1">
         <div class="col-sm-6">
 
             <div class="input-group">
@@ -64,12 +64,12 @@
     {{--بحث وتصفح   الأدوية الحالية --}}
     <div class="row">
 
-        <div class="col-sm-12">
-            <label class="control-label p-h-xs ">نتائج البحث :</label>
-        </div>
-
-        <div class="col-lg-12">
+        <div class="col-lg-10 col-lg-offset-1">
             <div class="ibox float-e-margins">
+
+                <div class="ibox-title">
+                    <h5>نتائج البحث :</h5>
+                </div>
 
                 <div class="ibox-content" style="">
                     <div class="table-responsive">

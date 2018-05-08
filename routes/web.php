@@ -47,6 +47,11 @@ Route::get('/patients/dshow', function () {
     return view('patients.dshow');
 });
 
+Route::get('/patients/dshow2', function () {
+
+    return view('patients.dshow2');
+});
+
 Route::get('/doctors/patients-search', function () {
     return view('doctors.patients-search');
 });
@@ -79,9 +84,18 @@ Route::get('/pharmacist/suppliers', function () {
     return view('pharmacist.suppliers');
 });
 
-Route::get('/pharmacist/supplier-transaction', function () {
-    return view('pharmacist.supplier-transaction');
+Route::get('/pharmacist/new-supplier-transaction', function () {
+    return view('pharmacist.new-supplier-transaction');
 });
+Route::get('/pharmacist/supplier-transactions-show', function () {
+    return view('pharmacist.supplier-transactions-show');
+});
+
+
+Route::get('/pharmacist/supplier-edit', function () {
+    return view('pharmacist.supplier-edit');
+});
+
 
 
 /*

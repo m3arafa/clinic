@@ -11,7 +11,7 @@
         <div class="row">
 
             {{--إضافة جنسية--}}
-            <div class="ibox float-e-margins col-lg-7 col-md-10 col-sm-12">
+            <div class="ibox float-e-margins col-lg-8 col-lg-offset-1">
 
                 <div class="ibox-title">
                     <h4>إضافة جنسية</h4>
@@ -34,7 +34,7 @@
                 </form>
             </div>
             {{-- الجنسيات الحالية--}}
-            <div class="ibox float-e-margins col-lg-7 col-md-10 col-sm-12">
+            <div class="ibox float-e-margins col-lg-8 col-lg-offset-1">
                 <div class="ibox-title ">
                     <h4> الجنسيات الحالية : </h4>
                 </div>

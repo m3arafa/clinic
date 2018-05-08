@@ -31,7 +31,7 @@
                             class="fa arrow"></span></a>
                 <ul class="nav nav-second-level collapse" style="height: 0px;">
                     <li><a href="{{url('/pharmacist/suppliers')}}">قائمة الموردين</a></li>
-                    <li><a href="{{url('/pharmacist/supplier-transaction')}}">تسجيل عملية توريد</a></li>
+                    <li><a href="{{url('/pharmacist/new-supplier-transaction')}}">تسجيل عملية توريد</a></li>
                 </ul>
             </li>
         </ul>

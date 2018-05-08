@@ -104,8 +104,6 @@
 
 
 
-@section('scripts')
-@show
 
 @yield('scripts')
 

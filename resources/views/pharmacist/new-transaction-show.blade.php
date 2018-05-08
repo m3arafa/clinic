@@ -9,11 +9,11 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-lg-8">
+            <div class="col-lg-8 col-lg-offset-1">
                 <div class="ibox float-e-margins">
                     <div class="ibox-content">
-                        <table class="table">
-                            <tr>
+                        <table class="table table-responsive ">
+                            <tr class="success">
                                 <th>رقم إذن الصرف</th>
                                 <th>تاريخ إذن الصرف</th>
                                 <th>اسم المريض</th>
@@ -33,7 +33,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-8">
+            <div class="col-lg-8 col-lg-offset-1">
                 <div class="ibox float-e-margins">
                     <div class="ibox-title">
                         <h5>الأصناف المنصرفة</h5>
@@ -41,7 +41,7 @@
                     <div class="ibox-content">
                         <form>
                             <table class="table table-responsive">
-                                <tr>
+                                <tr class="success">
                                     <th>اسم الصنف</th>
                                     <th>الكمية الموصوفة</th>
                                     <th>الكمية المنصرفة</th>

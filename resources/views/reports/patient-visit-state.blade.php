@@ -7,7 +7,7 @@
 @section('content')
 
     <div class="container row">
-        <div class="form-group float-e-margins col-lg-6 col-md-8 col-sm-12">
+        <div class="form-group float-e-margins col-lg-6 col-lg-offset-1">
             <div class="input-group">
                 <input type="text" placeholder="بحث برقم الملف أو الاسم" class="input-md form-control">
                 <span class="input-group-btn">
@@ -16,12 +16,12 @@
             </div>
         </div>
 
-        <div class="col-lg-12 col-md-12 col-sm-12">
-            <label class="control-label p-h-xs ">نتائج البحث :</label>
-        </div>
+        <div class="col-lg-10">
+            <div class="ibox float-e-margins col-lg-offset-1">
 
-        <div class="col-lg-9 col-md-10 col-sm-12">
-            <div class="ibox float-e-margins">
+                <div class="ibox-title">
+                    <h4>نتائج البحث</h4>
+                </div>
 
                 <div class="ibox-content" style="">
                     <div class="table-responsive">

@@ -1,10 +1,13 @@
 @extends('layouts.app')
 
+@section('title')
+تقرير جرد الصيدلية
+@stop
 
 @section('content')
 
     <div class="container row ">
-        <div class="col-lg-8 col-md-10 col-sm-12">
+        <div class="col-lg-8 col-lg-offset-1">
             <div class="ibox float-e-margins">
 
                 <div class="ibox-title">

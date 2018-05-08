@@ -11,7 +11,7 @@
 
         <div class="col-sm-12">
             <label class="control-label p-h-xs m-r-xl">طلبات الصرف السابقة:</label>
-            <a href="#" class="btn btn-primary">تسجيل صرف جديد</a>
+            <a href="{{url('/pharmacist/new-transaction ')}}" class="btn btn-primary">تسجيل صرف جديد</a>
         </div>
 
         <div class="col-lg-12">

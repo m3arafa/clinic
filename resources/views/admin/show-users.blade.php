@@ -8,16 +8,13 @@
 
 @section('content')
     <div class="container">
-        <div class="ibox  col-lg-8 col-md-10 col-sm-12">
-            <div class="ibox-title p-h-xl">
+        <div class="ibox  col-lg-8 col-lg-offset-1">
+            <div class="ibox-title ">
                 <h4 class="col-lg-8"> المستخدمين : </h4>
-                <div class="col-lg-3 pull-left">
-                    <a href="{{url('/admin/add-new-user')}}">
-                        <button class="btn btn-primary">إضافة مستخدم جديد</button>
-                    </a>
 
-                </div>
-
+                <form role="form" action="{{url('/admin/add-new-user')}}">
+                    <button class="btn btn-sm btn-primary pull-left" type="submit">إضافة مستخدم جديد</button>
+                </form>
             </div>
             <div class="ibox-content">
                 <table class="table table-striped">
@@ -38,12 +35,12 @@
                         <td>موظف استقبال</td>
                         <td>
                             <form action="{{url('/admin/edit-user-details')}}">
-                                <button class="btn btn-primary form-group" type="submit">تعديل</button>
+                                <button class="btn btn-sm btn-primary form-group" type="submit">تعديل</button>
                             </form>
                         </td>
                         <td>
                             <form>
-                                <button class="btn btn-warning" type="submit">حذف</button>
+                                <button class="btn btn-sm btn-warning" type="submit">حذف</button>
                             </form>
 
                         </td>
@@ -54,12 +51,12 @@
                         <td>دكتور</td>
                         <td>
                             <form action="{{url('/admin/edit-user-details')}}">
-                                <button class="btn btn-primary form-group" type="submit">تعديل</button>
+                                <button class="btn btn-sm btn-primary form-group" type="submit">تعديل</button>
                             </form>
                         </td>
                         <td>
                             <form>
-                                <button class="btn btn-warning" type="submit">حذف</button>
+                                <button class="btn btn-sm btn-warning" type="submit">حذف</button>
                             </form>
 
                         </td>
@@ -70,12 +67,12 @@
                         <td>صيدلى</td>
                         <td>
                             <form action="{{url('/admin/edit-user-details')}}">
-                                <button class="btn btn-primary form-group" type="submit">تعديل</button>
+                                <button class="btn btn-sm btn-primary form-group" type="submit">تعديل</button>
                             </form>
                         </td>
                         <td>
                             <form>
-                                <button class="btn btn-warning" type="submit">حذف</button>
+                                <button class="btn btn-sm btn-warning" type="submit">حذف</button>
                             </form>
 
                         </td>
@@ -86,12 +83,12 @@
                         <td>موظف استقبال</td>
                         <td>
                             <form action="{{url('/admin/edit-user-details')}}">
-                                <button class="btn btn-primary form-group" type="submit">تعديل</button>
+                                <button class="btn btn-sm btn-primary form-group" type="submit">تعديل</button>
                             </form>
                         </td>
                         <td>
                             <form>
-                                <button class="btn btn-warning" type="submit">حذف</button>
+                                <button class="btn btn-sm btn-warning" type="submit">حذف</button>
                             </form>
 
                         </td>
@@ -102,12 +99,12 @@
                         <td>دكتور</td>
                         <td>
                             <form action="{{url('/admin/edit-user-details')}}">
-                                <button class="btn btn-primary form-group" type="submit">تعديل</button>
+                                <button class="btn btn-sm btn-primary form-group" type="submit">تعديل</button>
                             </form>
                         </td>
                         <td>
                             <form>
-                                <button class="btn btn-warning" type="submit">حذف</button>
+                                <button class="btn btn-sm btn-warning" type="submit">حذف</button>
                             </form>
 
                         </td>
@@ -118,12 +115,12 @@
                         <td>مدير عام</td>
                         <td>
                             <form action="{{url('/admin/edit-user-details')}}">
-                                <button class="btn btn-primary form-group" type="submit">تعديل</button>
+                                <button class="btn btn-sm btn-primary form-group" type="submit">تعديل</button>
                             </form>
                         </td>
                         <td>
                             <form>
-                                <button class="btn btn-warning" type="submit">حذف</button>
+                                <button class="btn btn-sm btn-warning" type="submit">حذف</button>
                             </form>
 
                         </td>
